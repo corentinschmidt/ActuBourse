@@ -1,0 +1,125 @@
+{
+  "last_updated": "2026-04-15",
+  "sectors": {
+    "energie": {
+      "label": "Énergie",
+      "keywords": ["pétrole", "gaz", "énergie", "oil", "gas", "energy", "nucléaire", "uranium", "raffinerie", "OPEC", "barrel"],
+      "stocks": [
+        {"ticker": "TTE.PA", "name": "TotalEnergies", "cap": "large"},
+        {"ticker": "ELAN.PA", "name": "Esso (ExxonMobil FR)", "cap": "mid"},
+        {"ticker": "RUBIS.PA", "name": "Rubis", "cap": "mid"},
+        {"ticker": "MHB.PA", "name": "Maurel & Prom", "cap": "small"}
+      ]
+    },
+    "transition_energetique": {
+      "label": "Transition Énergétique / Électrification",
+      "keywords": ["solaire", "éolien", "renouvelable", "hydrogène", "batterie", "EV", "électrique", "green", "photovoltaïque", "transition", "climat", "carbone", "décarbonation", "solar", "wind", "hydrogen", "electric vehicle"],
+      "stocks": [
+        {"ticker": "ENGI.PA", "name": "Engie", "cap": "large"},
+        {"ticker": "NEO.PA", "name": "Neoen", "cap": "mid"},
+        {"ticker": "MCPHY.PA", "name": "McPhy Energy", "cap": "small"},
+        {"ticker": "HDF.PA", "name": "Hydrogène de France", "cap": "small"},
+        {"ticker": "ALVER.PA", "name": "Voltalia", "cap": "mid"},
+        {"ticker": "RXL.PA", "name": "Rexel", "cap": "mid"}
+      ]
+    },
+    "batiment": {
+      "label": "Bâtiment / Construction / Matériaux",
+      "keywords": ["construction", "bâtiment", "BTP", "immobilier", "ciment", "logement", "rénovation", "infrastructure", "travaux", "chantier", "housing", "real estate"],
+      "stocks": [
+        {"ticker": "SGO.PA", "name": "Saint-Gobain", "cap": "large"},
+        {"ticker": "BN.PA", "name": "Bouygues", "cap": "large"},
+        {"ticker": "DG.PA", "name": "Vinci", "cap": "large"},
+        {"ticker": "LR.PA", "name": "Legrand", "cap": "large"},
+        {"ticker": "NK.PA", "name": "Imerys", "cap": "mid"},
+        {"ticker": "HEXA.PA", "name": "Hexaom", "cap": "small"}
+      ]
+    },
+    "banque_finance": {
+      "label": "Banque / Finance / Assurance",
+      "keywords": ["banque", "bank", "crédit", "taux", "BCE", "ECB", "inflation", "assurance", "finance", "prêt", "épargne", "obligation", "dette", "spread", "Moody", "rating"],
+      "stocks": [
+        {"ticker": "BNP.PA", "name": "BNP Paribas", "cap": "large"},
+        {"ticker": "GLE.PA", "name": "Société Générale", "cap": "large"},
+        {"ticker": "ACA.PA", "name": "Crédit Agricole", "cap": "large"},
+        {"ticker": "CS.PA", "name": "AXA", "cap": "large"},
+        {"ticker": "AMUN.PA", "name": "Amundi", "cap": "mid"},
+        {"ticker": "CNP.PA", "name": "CNP Assurances", "cap": "mid"},
+        {"ticker": "CRAP.PA", "name": "Caisse Régionale Nord", "cap": "small"}
+      ]
+    },
+    "luxe": {
+      "label": "Luxe / Mode",
+      "keywords": ["luxe", "luxury", "mode", "fashion", "haute couture", "LVMH", "Hermès", "Kering", "Chine", "China", "consommation premium"],
+      "stocks": [
+        {"ticker": "MC.PA", "name": "LVMH", "cap": "large"},
+        {"ticker": "RMS.PA", "name": "Hermès", "cap": "large"},
+        {"ticker": "KER.PA", "name": "Kering", "cap": "large"},
+        {"ticker": "CDI.PA", "name": "Christian Dior", "cap": "large"},
+        {"ticker": "ML.PA", "name": "Compagnie Financière Rupert", "cap": "mid"}
+      ]
+    },
+    "tech_telecom": {
+      "label": "Tech / Télécom / IA",
+      "keywords": ["tech", "IA", "AI", "cloud", "logiciel", "software", "télécom", "5G", "fibre", "cyber", "data", "semi-conducteur", "chip", "startup", "numérique", "digital"],
+      "stocks": [
+        {"ticker": "CAP.PA", "name": "Capgemini", "cap": "large"},
+        {"ticker": "ATO.PA", "name": "Atos", "cap": "mid"},
+        {"ticker": "DG.PA", "name": "Dassault Systèmes", "cap": "large"},
+        {"ticker": "ORA.PA", "name": "Orange", "cap": "large"},
+        {"ticker": "SOP.PA", "name": "Sopra Steria", "cap": "mid"},
+        {"ticker": "ILD.PA", "name": "ILIAD", "cap": "mid"},
+        {"ticker": "STM.PA", "name": "STMicroelectronics", "cap": "large"},
+        {"ticker": "ALP.PA", "name": "Alten", "cap": "mid"}
+      ]
+    },
+    "sante": {
+      "label": "Santé / Pharma / Biotech",
+      "keywords": ["santé", "pharma", "biotech", "médicament", "hôpital", "ANSM", "vaccin", "essai clinique", "drug", "health", "FDA", "EMA", "dispositif médical"],
+      "stocks": [
+        {"ticker": "SAN.PA", "name": "Sanofi", "cap": "large"},
+        {"ticker": "EUCAR.PA", "name": "EssilorLuxottica", "cap": "large"},
+        {"ticker": "BIM.PA", "name": "bioMérieux", "cap": "mid"},
+        {"ticker": "GNFT.PA", "name": "Genfit", "cap": "small"},
+        {"ticker": "ABIO.PA", "name": "Albioma (Sartorius Stedim)", "cap": "mid"},
+        {"ticker": "IPN.PA", "name": "Ipsen", "cap": "mid"}
+      ]
+    },
+    "agro_alimentaire": {
+      "label": "Agroalimentaire / Distribution",
+      "keywords": ["alimentaire", "agriculture", "food", "distribution", "supermarché", "retail", "grande surface", "céréale", "lait", "boisson", "agro"],
+      "stocks": [
+        {"ticker": "BN.PA", "name": "Danone", "cap": "large"},
+        {"ticker": "RI.PA", "name": "Pernod Ricard", "cap": "large"},
+        {"ticker": "CA.PA", "name": "Carrefour", "cap": "large"},
+        {"ticker": "SW.PA", "name": "Sodexo", "cap": "mid"},
+        {"ticker": "BVI.PA", "name": "Bureau Veritas", "cap": "mid"}
+      ]
+    },
+    "transport_logistique": {
+      "label": "Transport / Logistique / Aéro-Défense",
+      "keywords": ["transport", "aviation", "aérien", "ferroviaire", "SNCF", "logistique", "fret", "aéronautique", "défense", "militaire", "Airbus", "naval", "spatial"],
+      "stocks": [
+        {"ticker": "AIR.PA", "name": "Airbus", "cap": "large"},
+        {"ticker": "AF.PA", "name": "Air France-KLM", "cap": "mid"},
+        {"ticker": "HO.PA", "name": "Thales", "cap": "large"},
+        {"ticker": "SAF.PA", "name": "Safran", "cap": "large"},
+        {"ticker": "AM.PA", "name": "Dassault Aviation", "cap": "mid"},
+        {"ticker": "CMA.PA", "name": "CMA CGM", "cap": "large"},
+        {"ticker": "GBT.PA", "name": "Getlink (Eurotunnel)", "cap": "mid"}
+      ]
+    },
+    "industrie": {
+      "label": "Industrie / Équipement",
+      "keywords": ["industrie", "usine", "manufacture", "automatisation", "robot", "acier", "métallurgie", "chimie", "gaz industriel"],
+      "stocks": [
+        {"ticker": "AI.PA", "name": "Air Liquide", "cap": "large"},
+        {"ticker": "SU.PA", "name": "Schneider Electric", "cap": "large"},
+        {"ticker": "ML.PA", "name": "Michelin", "cap": "large"},
+        {"ticker": "ARIA.PA", "name": "Arkema", "cap": "mid"},
+        {"ticker": "RNO.PA", "name": "Renault", "cap": "large"},
+        {"ticker": "UG.PA", "name": "Peugeot (Stellantis)", "cap": "large"}
+      ]
+    }
+  }
+}
