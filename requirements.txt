@@ -1,0 +1,30 @@
+# ══════════════════════════════════════════════════════════════
+# French Market Intel — Dépendances Python
+# ══════════════════════════════════════════════════════════════
+
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+pandas>=2.1.0
+
+# Données boursières
+yfinance>=0.2.36
+
+# Affichage console
+rich>=13.7.0
+tabulate>=0.9.0
+
+# Planification
+APScheduler>=3.10.0
+schedule>=1.2.0
+
+# Analyse de sentiment (optionnel – fallback dictionnaire si absent)
+# transformers>=4.36.0
+# torch>=2.1.0
+
+# Dashboard (V2)
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Email via SendGrid (optionnel – sinon SMTP standard)
+# sendgrid>=6.11.0
